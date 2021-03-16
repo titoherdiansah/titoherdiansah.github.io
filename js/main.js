@@ -12,6 +12,7 @@ jQuery(document).ready(function () {
         $('.sidebar ul li .feat-show').removeClass("show");
         $('.sidebar').removeClass("show");
         $('.btn').removeClass("clicks");
+        $('.sidebar ul li .first').removeClass("rotate");
     });
     $('.sidebar ul li').click(function () {
         $(this).addClass("active").siblings().removeClass("active");
